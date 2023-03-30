@@ -51,7 +51,13 @@ function setup() {
 		button.hide()
 		modeSelectButtons.push(button)
 	}
-  
+//       let optionsButton = createButton(OPTION.name)
+//         optionsButton.size(BUTTON_WIDTH, BUTTON_HEIGHT)
+//         optionsButton.style('font-size', '24px')
+//         optionButtons.position(
+//           (width - BUTTON_WIDTH) / 2,
+//           (700 - modes.length * (BUTTON_HEIGHT + BUTTON_GAP) * i) / 2 - BUTTON_GAP
+//         )
 }
 
 function draw() {
